@@ -79,7 +79,7 @@ function Profile() {
 			setErrorMsg('');
 			setSuccessMsg('');
 
-			const res = await fetch('http://localhost:3000/api/user/profile', {
+			const res = await fetch(`${link}/api/user/profile`, {
 				method: 'PUT',
 				headers: {
 					'Content-Type': 'application/json',
