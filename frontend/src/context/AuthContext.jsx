@@ -40,7 +40,6 @@ export function AuthContextProvider({ children }) {
 	}, []);
 
 	const login = async (email, password) => {
-		let link = import.meta.env.VITE_BACKEND_URI;
 		const res = await fetch(`${link}/api/auth/login`, {
 			method: 'POST',
 			headers: {
@@ -61,7 +60,6 @@ export function AuthContextProvider({ children }) {
 	};
 
 	const logout = async () => {
-		let link = import.meta.env.VITE_BACKEND_URI;
 		try {
 			await fetch(`${link}/api/auth/logout`, {
 				method: 'POST',
