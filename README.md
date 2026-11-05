@@ -4,7 +4,7 @@ SecureRBAC is a role-based access control application with a React frontend and 
 
 ## Stack
 
-- Frontend: React, React Router, Vite
+- Frontend: React 19, React Router 8, Vite, Tailwind CSS, Lucide React
 - Backend: Node.js, Express, Mongoose
 - Authentication: JWT stored in an HTTP-only cookie
 - Database: MongoDB
@@ -100,6 +100,13 @@ Users have one of two roles:
 
 - `USER` - Default role for registered users
 - `ADMIN` - Can access admin routes and pages
+
+### Demo Credentials for Testing
+
+| Role | Email | Password |
+| ---- | ----- | -------- |
+| `ADMIN` | `admin@example.com` | `admin123` |
+| `USER` | `test@example.com` | `password123` |
 
 Make sure MongoDB is running before starting the backend. The backend will exit if it cannot connect to the configured database.
 
