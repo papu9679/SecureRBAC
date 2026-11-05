@@ -1,0 +1,30 @@
+<svg
+  width="300"
+  height="300"
+  viewBox="0 0 300 300"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="300" height="300" rx="20" fill="#e0f2fe"/>
+
+  <!-- Sun -->
+  <circle cx="220" cy="75" r="30" fill="#facc15"/>
+
+  <!-- Mountains -->
+  <path d="M0 220 L100 90 L200 220 Z" fill="#16a34a"/>
+  <path d="M100 220 L210 110 L300 220 Z" fill="#15803d"/>
+
+  <!-- Ground -->
+  <rect x="0" y="220" width="300" height="80" fill="#22c55e"/>
+
+  <!-- Text -->
+  <text
+    x="150"
+    y="270"
+    font-size="22"
+    text-anchor="middle"
+    fill="white"
+    font-weight="bold"
+  >
+    Nature
+  </text>
+</svg>
