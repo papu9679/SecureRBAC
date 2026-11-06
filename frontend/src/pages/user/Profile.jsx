@@ -153,8 +153,8 @@ function Profile() {
 						<div
 							className={`w-24 h-24 rounded-full flex items-center justify-center text-3xl font-extrabold text-white shadow-lg ${
 								isAdmin
-									? 'bg-gradient-to-tr from-purple-600 via-purple-500 to-pink-500 shadow-purple-500/20'
-									: 'bg-gradient-to-tr from-sky-500 to-indigo-600 shadow-indigo-500/20'
+									? 'bg-linear-to-tr from-purple-600 via-purple-500 to-pink-500 shadow-purple-500/20'
+									: 'bg-linear-to-tr from-sky-500 to-indigo-600 shadow-indigo-500/20'
 							}`}
 						>
 							{getInitials(profile?.name)}
