@@ -1,5 +1,6 @@
 // src/middleware/verifyToken.js
 
+//that is Authentication
 import jwt from 'jsonwebtoken';
 
 const verifyToken = (req, res, next) => {

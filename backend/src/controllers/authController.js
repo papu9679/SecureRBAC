@@ -103,7 +103,7 @@ export const login = async (req, res) => {
 			httpOnly: true,
 			//   sameSite: "lax",
 			//   secure: false,
-			maxAge: 24 * 60 * 60 * 1000,
+			maxAge: 24 * 60 * 60 * 1000, 	//24 Hours -> h * min * sec * millisecond
 		});
 
 		// 6. Send user data

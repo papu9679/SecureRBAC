@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import dotenv from 'dotenv';
 
 import authRoutes from './routes/authRoutes.js';
 import userRoutes from './routes/userRoutes.js';
@@ -14,7 +13,6 @@ app.use(express.json());
 app.use(cookieParser());
 
 // app.use(cors());
-dotenv.config();
 let link = process.env.VITE_URI;
 
 app.use(
